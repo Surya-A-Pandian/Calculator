@@ -1,18 +1,26 @@
 * {
     margin: 0;
+    background: #f8f53d;
     padding: 0;
 }
-body {
+article {
+    text-align: center;
+    margin-top: 50px;
+}
+article h1 {
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.container {
     text-align: center;
     margin: 0;
-    background: #f8f53d;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
 }
 #calculator {
-    max-width: 360px;
+    /* max-width: 360px; */
     background-color: #0d1b2a;
     border-radius: 10px;
     -webkit-border-radius: 10px;
